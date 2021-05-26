@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>4 in a ROW</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+
+<body class="allBG">
+
+    <div id="page1" class="page1Style">
+
+        <div class="baseDiv">
+
+            <div class="topBtnDiv">
+                <button onclick="test()" id="btn">PLAY</button>
+            </div>
+            <hr />
+            <div class="bottomBtnDiv">
+                <button onclick="alert('Coming Soon...')" id="btn1" style="background-color: #4BABFF;">Custom
+                    Game</button>
+                <button onclick="alert('Coming Soon...')" id="btn2" style="background-color: #4B7CFF;">Two
+                    Players</button>
+                <br /><br />
+                <button onclick="alert('Coming Soon...')" id="btn3" style="background-color: #4B4CFF;">Game
+                    Online</button>
+                <button onclick="alert('Coming Soon...')" id="btn4" style="background-color: #6F4BFF;">Training
+                    Game</button>
+            </div>
+            <span id="copyrightSpan">&#169; 2020</span>
+        </div>
+
+    </div>
+
+    <div id="page2" class="page1Style page2Style" style="display: none;">
+        <div class="infoDiv infoPlayer1">
+            <label for="player1" class="inputTxtLabel">Player 01</label><br />
+            <input type="text" id="player1" class="playerTxt pl1" placeholder="Name">
+        </div>
+        <div class="infoDiv infoPlayer2">
+            <label for="player2" class="inputTxtLabel">Player 02</label><br />
+            <input type="text" id="player2" class="playerTxt pl2" placeholder="Name">
+        </div>
+        <div class="infoDiv infoSelect">
+            <label for="selectGame" class="inputTxtLabel">Number of game</label><br />
+            <select name="selectGame" class="inputSelect" id="selectGame">
+                <option value="2">2 Games</option>
+                <option value="3">3 Games</option>
+                <option value="5">5 Games</option>
+                <option value="10">10 Games</option>
+            </select>
+        </div>
+        <div class="infoDiv infoSelect">
+            <label for="selectTurn" class="inputTxtLabel">Who starts</label><br />
+            <select name="selectTurn" class="inputSelect" id="selectTurn">
+                <option value="alternative">Alternative turn</option>
+                <option value="looser">Looser first</option>
+                <option value="winner">Winner first</option>
+                <option value="player1">Always player 01</option>
+                <option value="player2">Always player 02</option>
+            </select>
+        </div>
+        <hr />
+        <button onclick="startGame()" id="startGameBtn" style="background-color: #4B7CFF;">Start Game</button>
+    </div>
+
+    <section id="page3" style="display: none;">
+
+        <div class="center">
+            <table id="gameTable">
+
+            </table>
+        </div>
+        <div id="resultDiv" class="result">
+            <p id="announceWin"></p>
+            <button onclick="undoMove()" id="undoBtn" class="resetBtn">UNDO STEP</button><br /><br />
+            <button onclick="resetGame()" id="resetBtn" class="resetBtn">RESET</button>
+        </div>
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

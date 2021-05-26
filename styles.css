@@ -1,0 +1,202 @@
+.allBG {
+  background-color: #ced2dc;
+}
+
+table {
+  width: 100%;
+  background-color: #84a4fc;
+}
+
+td {
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.result {
+  top: 1.2%;
+  left: 74.7%;
+  background-color: white;
+  height: 35.3em;
+  width: 100%;
+  position: fixed;
+}
+
+.page1Style {
+  position: absolute;
+  width: 35%;
+  height: 55%;
+  background-color: white;
+  margin-left: 32%;
+  margin-top: 10%;
+  border-radius: 3%;
+}
+
+button {
+  border-radius: 1em;
+  border: 0px;
+  font-family: monospace;
+}
+
+#btn {
+  background-color: #fa7244;
+  margin-bottom: 25%;
+  height: 5em;
+  width: 6em;
+  position: relative;
+  left: 10%;
+  top: 5em;
+}
+
+hr {
+  width: 85%;
+  color: #ced2dc;
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4 {
+  display: inline-block;
+  width: 49%;
+  height: 40%;
+  color: white;
+  font-size: 1.4em;
+}
+
+.baseDiv {
+  height: 110%;
+  width: 100%;
+  background-color: #eeeeee;
+  border-radius: 1em;
+}
+
+.topBtnDiv {
+  background-color: white;
+  margin-bottom: -2%;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+}
+
+.bottomBtnDiv {
+  height: 35%;
+  width: 90%;
+  padding: 5%;
+  background-color: white;
+  margin-top: -2%;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+#copyrightSpan {
+  font-size: 0.8em;
+  margin-left: 5%;
+  font-family: monospace;
+}
+
+.infoDiv {
+  margin-left: 10%;
+}
+
+.infoPlayer1 {
+  margin-top: 6%;
+  width: 78%;
+  background-color: #dcf6e4;
+}
+
+.pl1 {
+  background-color: #dcf6e4;
+}
+
+.infoPlayer2 {
+  margin-top: 2%;
+  width: 78%;
+  background-color: #f6efd5;
+}
+
+.pl2 {
+  background-color: #f6efd5;
+}
+
+.infoSelect {
+  margin-top: 2%;
+  width: 78%;
+  background-color: #eff3ff;
+}
+
+.inputSelect {
+  font-family: monospace;
+  width: 100%;
+  height: 3em;
+  border: transparent;
+  padding-left: 5%;
+  background-color: #eff3ff;
+}
+
+.inputTxtLabel {
+  font-size: 0.8em;
+  font-family: monospace;
+  margin-left: 5%;
+  color: gray;
+}
+
+.playerTxt {
+  width: 94%;
+  height: 3em;
+  border: transparent;
+  margin-left: 5%;
+}
+
+input:focus {
+  outline: none;
+}
+
+select {
+  appearance: none;
+}
+
+#startGameBtn {
+  background-color: #4b7cff;
+  font-family: monospace;
+  width: 78%;
+  margin-left: 10%;
+  height: 3em;
+  color: white;
+  font-size: 1.4em;
+}
+
+.page2Style {
+  height: 58%;
+}
+
+.resetBtn {
+  height: 3em;
+  width: 20%;
+  margin-left: 2%;
+}
+
+#resetBtn {
+  background-color: white;
+  color: red;
+  outline: auto;
+}
+
+#undoBtn:disabled {
+  background-color: grey;
+}
+
+#undoBtn {
+  background-color: #4b7cff;
+  color: white;
+}
+
+#announceWin {
+  padding: 5%;
+  margin-left: 4%;
+}
